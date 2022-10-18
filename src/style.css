@@ -1,0 +1,62 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #282D35;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    height: 90px;
+    padding: 30px 25px;
+}
+
+nav > h3, nav > h4 {
+    margin: 0;
+}
+
+nav > h3 {
+    margin-right: auto;
+    color: #61DAFB;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+nav > h4 {
+    color: #DEEBF8;
+    font-weight: 600;
+}
+main {
+    padding: 57px 27px;
+    color: white;
+    background-image: url(./images/logo192.png); 
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 75%;
+}
+main > h1 {
+    margin: 0;
+    font-size: 35px; 
+    letter-spacing: -0.05em;
+    text-align: ;
+}
+
+.list {
+    margin-top: 40px;
+    max-width: 400px;
+}
+.list li{
+    line-height: 19px;
+    font-size: 16px;
+    padding-block: 10px;
+}
+
+.list > li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
+}
